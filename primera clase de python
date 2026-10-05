@@ -1,0 +1,12 @@
+print("Hola Mundo")
+nombre:str ="Rafa"
+apellido:str ="Brotons"
+print(f"Hola me llamo {nombre} y mi apellido es {apellido}")
+
+edad:int =22
+ciudad:str ="Valencia"
+Tengo_carnet:bool =True
+
+print(type(edad))
+print(type(ciudad))
+print(type(Tengo_carnet))
