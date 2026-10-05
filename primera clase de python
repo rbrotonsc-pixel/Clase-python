@@ -10,3 +10,31 @@ Tengo_carnet:bool =True
 print(type(edad))
 print(type(ciudad))
 print(type(Tengo_carnet))
+
+print(nombre.upper())
+print(len(nombre))
+print(nombre[0])
+print(nombre[3])
+
+persona = {
+    "nombre":"Rafa",
+    "edad":22,
+    "ciudad":"Valencia",
+    "soltero":True
+}
+print(persona)
+print(persona["edad"])
+
+compra = ["pan","leche","huevos"]
+compra.append("Frutas")
+compra.insert(1,"Verduras")
+compra.pop(-1)
+print(compra)
+
+print(compra[0])
+
+culpable = True 
+if culpable ==True:
+    print("Es culpable")
+else:
+    print("No es culpable")
