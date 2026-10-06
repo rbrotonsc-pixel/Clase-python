@@ -33,4 +33,7 @@ def cuentaCaracteres(palabra):
         return(len(palabra))
     else:
         return("Debe ser ejecutada con un string")
-print(cuentaCaracteres("Hola"))
+print(cuentaCaracteres(7))
+
+letra= lambda palabra:palabra[0]
+print(letra("rafa"))
