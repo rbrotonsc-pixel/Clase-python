@@ -10,3 +10,8 @@ elif longitud >longitud_maxima:
     print("muy larga")
 elif longitud >longitud_minima and longitud <longitud_maxima:
     print("Valida")
+        
+#Bucles
+colores = ["rojo", "verde", "azul", "amarillo"]
+for color in colores:
+    print(color)
