@@ -22,3 +22,8 @@ contador =7
 while contador < 11:
     print(contador)
     contador +=1
+
+
+def saludar(nombre):
+    return "Hola" + nombre
+print(saludar("Rafa"))
