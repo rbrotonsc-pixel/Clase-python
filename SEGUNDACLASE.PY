@@ -27,3 +27,10 @@ while contador < 11:
 def saludar(nombre):
     return "Hola" + nombre
 print(saludar("Rafa"))
+
+def cuentaCaracteres(palabra):
+    if type(palabra)== str:
+        return(len(palabra))
+    else:
+        return("Debe ser ejecutada con un string")
+print(cuentaCaracteres("Hola"))
